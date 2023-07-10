@@ -1,0 +1,74 @@
+*{
+   padding:0;
+   margin:0;
+   box-sizing: border-box;
+   
+}
+
+.formContainer{
+   background-color: #0c4b82;
+   color:white;
+   height: 130vh;
+   padding:2%;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+   text-align: center;
+}
+
+.form{
+
+   text-align: center;
+}
+
+.formHeader{
+   margin-top: 4rem;
+   font-size: 16px;
+}
+.formBody{
+   display: flex;
+   flex-direction: column;
+   padding: 2%;
+   gap: 1rem;
+   justify-content: center;
+   align-items: center;
+}
+
+.formBody input{
+   width:20vw;
+   padding: auto;
+   
+}
+.comment{
+   width: 18vw;
+}
+
+#agree{
+   width: 1vw !important;
+}
+.agreement{
+   margin-right: 400px !important;
+}
+.front, .back{
+   text-align: center;
+   display: flex;
+   gap: 0.5rem;
+   margin-left: 6em !important;
+}
+.kyc{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+   gap: 1rem;
+}
+.agreee{
+   text-align: justify;
+   margin-left: 25em !important;
+}
+.submitBtn{
+   width: 5vw;
+   height: 4vh;
+}
